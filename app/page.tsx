@@ -103,27 +103,25 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            {/* Course 2: BUP 2nd Timer Group Change 2026 */}
+            {/* Course 2: BUP FST Special Exam Batch 2026 */}
             <Card className="hover:shadow-2xl transition-all duration-500 hover:scale-105 border-2 hover:border-accent group cursor-pointer hover:-translate-y-2">
               <CardHeader className="text-center pb-4">
                 <div className="mx-auto mb-4 p-3 bg-secondary rounded-full w-fit transition-all duration-300 group-hover:bg-accent/20 group-hover:scale-110">
                   <Users className="h-8 w-8 text-primary transition-transform duration-300 group-hover:rotate-12" />
                 </div>
                 <CardTitle className="text-xl font-bold text-primary transition-colors duration-300 group-hover:text-accent">
-                  BUP 2nd Timer Group Change 2026
+                  BUP FST Special Exam Batch 2026
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-center">
                 <CardDescription className="text-base mb-6 leading-relaxed transition-colors duration-300 group-hover:text-gray-700">
-                  Specialized support for second-time applicants to enhance your chances of success with targeted
-                  preparation strategies.
+                  If you want to build a strong preparation by giving BUP Standard Model Test and Practice questions
                 </CardDescription>
-                <Button
-                  className="w-full bg-primary hover:bg-accent transition-all duration-300 hover:shadow-lg hover:scale-105"
-                  onClick={handleWhatsAppContact}
-                >
-                  Discover More
-                </Button>
+                <Link href="/exam-batch">
+                  <Button className="w-full bg-primary hover:bg-accent transition-all duration-300 hover:shadow-lg hover:scale-105">
+                    Enroll our Exam batch
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
 
